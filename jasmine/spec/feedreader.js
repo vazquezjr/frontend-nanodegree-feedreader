@@ -145,7 +145,7 @@ $(function() {
          it('are loaded', function(done) {
 
             // Grab the list of all of the feeds currently loaded.
-            var feeds = $('.entry');
+            var feeds = $('.feed .entry');
 
             // Check to see if the feed has several entries loaded.
             expect(feeds.length).not.toBe(0);
